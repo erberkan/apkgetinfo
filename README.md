@@ -2,7 +2,7 @@
 
 It lists the following information about an apk file:
   - package name
-  - md5, sha1, sha254
+  - md5
   - permissions (dangerous permissions appear in red)
 
 ### Usage

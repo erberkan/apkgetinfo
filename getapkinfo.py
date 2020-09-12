@@ -79,11 +79,8 @@ def get_file_hashes(file):
             if not data:
                 break
             md5.update(data)
-            sha1.update(data)
-            sha256 = hashlib.sha256(f.read()).hexdigest();
 
-    return "\nMD5: {0}".format(md5.hexdigest()) + "\n" + "SHA1: {0}".format(
-        sha1.hexdigest() + "\n" + "SHA256: {0}".format(sha256))
+    return "\nMD5: {0}".format(md5.hexdigest())
 
 
 try:
